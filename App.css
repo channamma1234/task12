@@ -1,0 +1,76 @@
+.containerMain {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border: 2px solid #000;
+}
+.container1 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 500px;
+}
+
+.productList {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #000;
+  width: 50%;
+}
+.cart {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #000;
+  width: 50%;
+}
+
+.productItem {
+  display: flex;
+  flex-direction: row;
+  border: 2px solid #000;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.checkBox {
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+}
+
+.container2 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.btnbox {
+  display: flex;
+  border: 2px solid #000;
+  padding: 10px;
+  font-size: 16px;
+  width: 50%;
+  justify-content: center;
+}
+
+.container3 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.bar {
+  display: flex;
+  flex-direction: row;
+  border: 2px solid #000;
+  font-size: 16px;
+  width: 50%;
+  padding: 10px;
+}
+
+.count {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  width: 50%;
+}
